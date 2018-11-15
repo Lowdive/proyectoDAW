@@ -13,6 +13,7 @@ and open the template in the editor.
          $order=$_SESSION['order'];
   }
 ?>
+
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -46,21 +47,11 @@ and open the template in the editor.
           </div>
           <div class="media-object stack-for-small">
             <div class="media-object-section">
-              <img class="thumbnail" src="http://placehold.it/200x200">
+              <img class="thumbnail" src="img/disc0.jpg">
             </div>
             <div class="media-object-section">
-              <h5>Mike Stevenson</h5>
-              <?php echo $order['name']; ?>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-            </div>
-          </div>
-          <div class="media-object stack-for-small">
-            <div class="media-object-section">
-              <img class="thumbnail" src="http://placehold.it/200x200">
-            </div>
-            <div class="media-object-section">
-              <h5>Mike Stevenson</h5>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+              <h5>Discs for Everyone!</h5>
+              <p>The finest Discraft 175g flying pieces of plastic for your enjoyment.</p>
             </div>
           </div>
         </div>
@@ -88,36 +79,3 @@ and open the template in the editor.
     </script>
   </body>
 </html>
-
-
-    
-
-<!-- <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Foundation | Welcome</title>
-        <link rel="stylesheet" href="css/foundation.min.css" type="text/css"/>
-        <link rel="stylesheet" href="css/main.css" type="text/css"/>
-        <link rel="stylesheet" href="css/app.css" type="text/css"/>
-    </head>
-    <body>
-        <div id="login">
-            <h3>Login</h3>
-            <form method="post" action="controller/login.php" >
-                <label>Username</label>
-                <input type="text" name="username" autocomplete="off" />
-                <label>Password</label>
-                <input type="password" name="password" autocomplete="off"/>
-                <div class="errorMsg"><?php echo $MsgError; ?></div>
-                <input type="submit" class="button" name="loginSubmit" value="Login">
-            </form>
-            <a href='registration.php'>Register</a>
-        </div>
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    </body>
-</html> -->
