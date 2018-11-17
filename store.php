@@ -40,12 +40,38 @@ and open the template in the editor.
     <!-- End Top Bar -->
     <br>
 
+    <div class="column row">
+      <hr>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
+              <img class="thumbnail" src="img/disc1.jpg">
+            </div>
+            <div class="media-object-section">
+              <h5>#1: Cat</h5>
+              <p>"If you don't know who you're hucking it to, it doesn't really matter how you huck it"</p>
+            </div>
+          </div>
+    </div>
+
+    <div class="column row">
+      <hr>
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
+              <img class="thumbnail" src="img/disc2.jpg">
+            </div>
+            <div class="media-object-section">
+              <h5>#2: Addicted</h5>
+              <p>175g of white stuff</p>
+            </div>
+          </div>
+    </div>
+
     <div class="row">
       <form method="post" action="controller/registerOrder.php">
                 <label>Disc</label>
-                <input type="text" name="discID" placeholder="Your_UserName" required />
-                 <label>Disc price</label>
-                 <input type="text" name="discPrice" placeholder="Your_Password" required />
+                <input type="number" name="discID" placeholder="ID of the disc, 1 or 2" required />
+                 <label>Disc price : $150 MXN</label>
+                 <input type="hidden" name="discPrice" value="150" required />
                  <label>Name</label>
                  <input type="text" name="name" placeholder="Your_Name" required />
                  <label>Email</label>

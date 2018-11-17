@@ -44,7 +44,6 @@ and open the template in the editor.
 
     <div class="column row">
       <hr>
-          </div>
           <div class="media-object stack-for-small">
             <div class="media-object-section">
               <img class="thumbnail" src="img/disc0.jpg">
@@ -54,8 +53,6 @@ and open the template in the editor.
               <p>The finest Discraft 175g flying pieces of plastic for your enjoyment.</p>
             </div>
           </div>
-        </div>
-      </div>
     </div>
 
     <div class="row column">
